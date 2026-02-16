@@ -9,5 +9,7 @@ WHAT HAVE I CORRECTED?
 5) PHASE INVERSION CORRECTED
 
 TO DO:
-1) FORWARD MODELING USING PINN
-2) CHECK THE ADDED RINGING IN THE PINN CASE AND CHECK BLUNTNESS
+1) Risolvere problema "out of memory" nella FWI PINN
+2) Modificare aspect=auto in deepwave per avere stesso aspect ratio di Devito
+3) Provare ad usare ottimizzatore L-BFGS-B al posto di Adam nella FWI con Deepwave
+4) Rifare la FWI usando la stessa geometria ma modificando il forward modeling usando Deepwave
